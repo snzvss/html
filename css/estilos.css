@@ -8,7 +8,7 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: 100vh;
+    min-height: 100vh;
 }
 
 header {
@@ -74,6 +74,12 @@ p {
     line-height: 1.5;
 }
 
+/* Estilos para las imágenes */
+img {
+    width: 30%;
+    height: 18%;
+}
+
 /* Estilos para la barra de navegación */
 nav ul {
     background-color: #333;
@@ -98,4 +104,67 @@ footer {
     width: 100%;
     background-color: #333;
     color: #fff;
+}
+
+/* Media Queries para responsividad */
+@media (max-width: 768px) {
+    main {
+        padding: 10px;
+    }
+    h1 {
+        font-size: 28px;
+    }
+    h2 {
+        font-size: 20px;
+    }
+    p {
+        font-size: 14px;
+    }
+}
+
+/* Estilos para el formulario */
+form {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    background-color: #f9f9f9;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilos para los campos de entrada de texto */
+input[type="text"],
+textarea,
+input[type="email"],
+input[type="date"],
+input[type="color"],
+input[type="file"] {
+    width: 100%;
+    padding: 6px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Estilo específico para input[type="color"] */
+input#color {
+    padding: 1px;
+}
+
+/* Estilos para los botones */
+input[type="submit"],
+input[type="reset"] {
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+/* Estilo para los enlaces en el formulario (puede personalizarse) */
+form a {
+    color: #0073e6;
+    text-decoration: underline;
 }

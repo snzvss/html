@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/estilos.css">
+    <title>Página 4 - Formulario de Información sobre Transporte Marítimo</title>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="pagina1.html">Página 1</a></li>
+            <li><a href="pagina2.html">Página 2</a></li>
+            <li><a href="pagina3.html">Página 3</a></li>
+            <li><a href="pagina4.html">Página 4</a></li>
+        </ul>
+    </nav>
+    <header>
+        <h1>Formulario de Información sobre Transporte Marítimo</h1>
+    </header>
+    <main>
+        <section>
+            <h2>Completa el Formulario</h2>
+            <form action="#" method="post">
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required><br><br>
+
+                <label for="comentario">Comentario:</label><br>
+                <textarea id="comentario" name="comentario" rows="4" cols="50"></textarea><br><br>
+
+                <label>Género:</label><br>
+                <input type="radio" id="masculino" name="genero" value="Masculino">
+                <label for="masculino">Masculino</label><br>
+                <input type="radio" id="femenino" name="genero" value="Femenino">
+                <label for="femenino">Femenino</label><br><br>
+
+                <label for="preferencias">Preferencias:</label><br>
+                <select id="preferencias" name="preferencias">
+                    <optgroup label="Rutas de Navegación Favoritas">
+                        <option value="Exploración de Rutas Comerciales">Exploración de Rutas Comerciales</option>
+                        <option value="Cruceros por Destinos Exóticos">Cruceros por Destinos Exóticos</option>
+                        <option value="Travesías Transatlánticas">Travesías Transatlánticas</option>
+                    </optgroup>
+                    <optgroup label="Intereses Marítimos">
+                        <option value="Barcos Históricos y Museos Marítimos">Barcos Históricos y Museos Marítimos</option>
+                        <option value="Ecología Marina y Conservación">Ecología Marina y Conservación</option>
+                        <option value="Innovaciones en la Industria Naviera">Innovaciones en la Industria Naviera</option>
+                    </optgroup>
+                    <optgroup label="Experiencias en el Agua">
+                        <option value="Pesca Deportiva y Excursiones Acuáticas">Pesca Deportiva y Excursiones Acuáticas</option>
+                        <option value="Viajes en Velero y Regatas">Viajes en Velero y Regatas</option>
+                        <option value="Actividades Subacuáticas y Buceo">Actividades Subacuáticas y Buceo</option>
+                    </optgroup>
+                    <optgroup label="Eventos Marítimos Especiales">
+                        <option value="Festivales Náuticos Locales e Internacionales">Festivales Náuticos Locales e Internacionales</option>
+                        <option value="Conferencias y Simposios sobre Transporte Marítimo">Conferencias y Simposios sobre Transporte Marítimo</option>
+                        <option value="Exposiciones de Barcos y Tecnología Marítima">Exposiciones de Barcos y Tecnología Marítima</option>
+                    </optgroup>
+                    <optgroup label="Estudios y Carreras Marítimas">
+                        <option value="Educación en Ciencias Náuticas">Educación en Ciencias Náuticas</option>
+                        <option value="Carreras en la Industria Marítima">Carreras en la Industria Marítima</option>
+                        <option value="Investigación y Desarrollo Marítimo">Investigación y Desarrollo Marítimo</option>
+                    </optgroup>
+                </select><br><br>
+                
+
+                <label for="pais">Selecciona un país:</label>
+                <select id="pais" name="pais">
+                    <option value="colombia">Colombia</option>
+                    <option value="venezuela">Venezuela</option>
+                    <option value="espana">España</option>
+                    <option value="mexico">México</option>
+                    <option value="argentina">Argentina</option>
+                    <option value="otro">Otro</option>
+                </select><br><br>
+
+                <label for="archivo">Cargar un archivo:</label>
+                <input type="file" id="archivo" name="archivo"><br><br>
+
+                <input type="hidden" name="informacion_oculta" value="Valor Oculto">
+
+                <label for="fecha">Fecha:</label>
+                <input type="date" id="fecha" name="fecha"><br><br>
+
+                <label for="color">Color favorito:</label>
+                <input type="color" id="color" name="color"><br><br>
+
+                <label for="email">Correo Electrónico:</label>
+                <input type="email" id="email" name="email" required><br><br>
+
+                <label for="tc">Tarjeta de Crédito:</label>
+                <input type="text" id="tc" name="tc" pattern="[0-9]{16}" placeholder="Ingrese 16 dígitos"><br><br>
+
+                <input type="submit" value="Enviar">
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2023 Sitio de Transporte Marítimo</p>
+    </footer>
+</body>
+</html>
