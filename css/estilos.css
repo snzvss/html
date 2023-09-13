@@ -176,6 +176,9 @@ form a {
         width: 80%;
         height: auto;
     }
+    nav {
+    padding: 20px;
+   }
     nav ul {
         background-color: #333;
         padding: 10px;
@@ -187,6 +190,9 @@ form a {
         display: block; /* Cambia de "inline" a "block" para que las opciones estén una debajo de la otra */
         margin-bottom: 10px; /* Ajusta la distancia vertical entre las opciones */
     }
+    footer {
+    padding: 20px;
+}
     section {
         text-align: center; /* Alinea el texto al centro en dispositivos móviles */
     }
