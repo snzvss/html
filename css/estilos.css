@@ -158,7 +158,8 @@ form a {
 /* Media Queries para responsividad */
 @media (max-width: 768px) {
     main {
-        padding: 10px;
+        padding: 30px;
+        width: 100%;
         margin-right: -2rem;
     }
     h1 {
@@ -176,7 +177,8 @@ form a {
         height: auto;
     }
     nav {
-        padding: 10px;
+        padding: 30px;
+        width: 100%;
         margin-right: -2rem;
    }
     nav ul {
@@ -191,7 +193,8 @@ form a {
         margin-bottom: 10px; /* Ajusta la distancia vertical entre las opciones */
     }
     footer {
-        padding: 10px;
+        padding: 30px;
+        width: 100%;
         margin-right: -2rem;
     }
     section {
