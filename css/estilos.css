@@ -159,8 +159,7 @@ form a {
 @media (max-width: 768px) {
     main {
         padding: 10px;
-        max-width: -850px;
-        margin-right: -1rem;
+        margin-right: -2rem;
     }
     h1 {
         font-size: 28px;
