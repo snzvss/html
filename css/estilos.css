@@ -159,7 +159,7 @@ form a {
 @media (max-width: 768px) {
     main {
         padding: 10px;
-        max-width: -800px;
+        max-width: -850px;
         margin-right: -1rem;
     }
     h1 {
@@ -177,11 +177,15 @@ form a {
         height: auto;
     }
     nav ul {
-        flex-direction: column;
-        align-items: center;
+        background-color: #333;
+        padding: 10px;
+        border-radius: 5px;
+        text-align: center;
     }
+    
     nav li {
-        margin: 10px 0;
+        display: block; /* Cambia de "inline" a "block" para que las opciones estén una debajo de la otra */
+        margin-bottom: 10px; /* Ajusta la distancia vertical entre las opciones */
     }
     section {
         text-align: center; /* Alinea el texto al centro en dispositivos móviles */
