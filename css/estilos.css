@@ -176,7 +176,8 @@ form a {
         height: auto;
     }
     nav {
-    margin-right: -2rem;
+        padding: 10px;
+        margin-right: -2rem;
    }
     nav ul {
         background-color: #333;
@@ -190,8 +191,9 @@ form a {
         margin-bottom: 10px; /* Ajusta la distancia vertical entre las opciones */
     }
     footer {
-    margin-right: -2rem;
-}
+        padding: 10px;
+        margin-right: -2rem;
+    }
     section {
         text-align: center; /* Alinea el texto al centro en dispositivos móviles */
     }
