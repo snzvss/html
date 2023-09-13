@@ -168,7 +168,7 @@ form a {
     }
     p {
         font-size: 14px;
-        margin-right: 0; /* Evita márgenes derechos en párrafos */
+        margin-right: 1rem; /* Evita márgenes derechos en párrafos */
     }
     img {
         width: 80%;
